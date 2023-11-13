@@ -540,6 +540,7 @@ label,
 p {
   font-family: helvetica;
   font-weight: 400;
+  color: black;
 }
 .container {
   max-width: 1000px;
@@ -892,4 +893,9 @@ li:a:link {
 
 ul {
   list-style-type: none;
+}
+
+.header-logo {
+  height: auto;
+  max-width: 100%;
 }
