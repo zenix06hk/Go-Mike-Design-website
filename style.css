@@ -369,7 +369,7 @@ nav .caret {
 .btn-d:focus,
 .btn-d:hover {
   color: #fff;
-  background: rgba(0, 0, 0, 0.3);
+  background: #eaeaea;
 }
 .close-lightbox,
 .lightbox-caption,
@@ -421,8 +421,9 @@ nav .caret {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  opacity: 0;
+  opacity: 1;
   z-index: 500;
+  transition: all 0.3s ease-in-out;
 }
 .scrollToTop span {
   margin-top: 6px;
@@ -540,7 +541,6 @@ label,
 p {
   font-family: helvetica;
   font-weight: 400;
-  color: black;
 }
 .container {
   max-width: 1000px;
@@ -638,7 +638,7 @@ h3 {
   background-color: #f3976c;
 }
 .btn-atomic-tangerine {
-  background: #f3976c;
+  background: #ff8d58;
 }
 .btn-atomic-tangerine:hover {
   background: #c27956 !important;
@@ -648,7 +648,7 @@ h3 {
   color: #ccc !important;
 }
 .ltc-atomic-tangerine {
-  color: #f3976c !important;
+  color: #ff8d58 !important;
 }
 .ltc-atomic-tangerine:hover {
   color: #c27956 !important;
