@@ -412,7 +412,7 @@ nav .caret {
   border-radius: 0 0 29px 29px;
 }
 .form-control {
-  border-color: rgba(0, 0, 0, 0.1);
+  border-color: #000000;
   box-shadow: none;
 }
 .scrollToTop {
@@ -541,6 +541,7 @@ label,
 p {
   font-family: helvetica;
   font-weight: 400;
+  color: #000000;
 }
 .container {
   max-width: 1000px;
