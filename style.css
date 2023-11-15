@@ -694,12 +694,12 @@ h3 {
     max-width: 100%;
   }
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-device: 768px) and (max-device: 1024px) and (orientation: landscape) {
   .b-parallax {
     background-attachment: scroll;
   }
 }
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-device: 1024px) and (max-device: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
   .b-parallax {
     background-attachment: scroll;
   }
@@ -717,8 +717,8 @@ h3 {
     position: relative;
   }
   .bloc {
-    padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right);
+    padding-left: 0;
+    padding-right: 0;
   }
   .bloc-group,
   .bloc-group .bloc {
@@ -728,8 +728,8 @@ h3 {
   .bloc-fill-screen .fill-bloc-bottom-edge,
   .bloc-fill-screen .fill-bloc-top-edge {
     padding: 0 20px;
-    padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right);
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 @media (max-width: 400px) {
@@ -881,7 +881,7 @@ a:link {
   color: #ffffff;
 }
 
-li:a:link {
+li > a:link {
   color: #ffffff !important;
 }
 
