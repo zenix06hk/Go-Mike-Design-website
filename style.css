@@ -884,7 +884,7 @@ li:a:link {
 
 .title-design {
   height: auto;
-  max-width: auto;
+  max-width: 100%;
 }
 
 .title-quote {
@@ -896,7 +896,7 @@ ul {
   list-style-type: none;
 }
 
-.header-logo {
+.home-logo {
   height: auto;
-  max-width: 100%;
+  max-width: 60%;
 }
