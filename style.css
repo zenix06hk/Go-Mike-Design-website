@@ -884,7 +884,7 @@ li:a:link {
 
 .title-design {
   height: auto;
-  max-width: 100%;
+  max-width: auto;
 }
 
 .title-quote {
