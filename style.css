@@ -1,6 +1,9 @@
-.d-bloc .navbar-toggle .icon-bar,
 body {
   background: #fff;
+  padding: 0;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 .bloc .container,
 .row.row-no-gutters > [class*=" col-"],
@@ -29,12 +32,6 @@ h1,
 h3,
 h4 {
   color: #333 !important;
-}
-body {
-  padding: 0;
-  overflow-x: hidden;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 li {
   padding: 5px 0;
@@ -159,6 +156,10 @@ a:hover {
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
   color: #fff;
+}
+
+.d-bloc .navbar-toggle .icon-bar {
+  background: rgba(255, 255, 255, 1);
 }
 .d-bloc .btn-wire,
 .d-bloc .btn-wire:hover {
