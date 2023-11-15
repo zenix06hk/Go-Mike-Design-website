@@ -897,3 +897,9 @@ li:a:link {
 ul {
   list-style-type: none;
 }
+.title-quote-1 {
+  font-size: 33px;
+  text-align: center;
+  color: #333333;
+  line-height: 43px;
+}
