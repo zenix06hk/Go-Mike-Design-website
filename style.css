@@ -252,6 +252,8 @@ a:hover {
   max-height: 200px;
   margin: 0 5px 0 0;
   display: inline;
+  max-width: 40%;
+  height: auto;
 }
 .navbar-brand img[src$="svg"] {
   min-width: 100px;
@@ -894,9 +896,4 @@ li:a:link {
 
 ul {
   list-style-type: none;
-}
-
-.home-logo {
-  height: auto;
-  max-width: 60%;
 }
